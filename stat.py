@@ -3,7 +3,7 @@ import json
 import os
 import statistics
 
-OUTPUT_DIR = "logs/baseline"
+OUTPUT_DIR = "logs/persuasive"
 
 SCORE_KEYS = ["open_source", "self_projects", "production", "technical_skills"]
 
@@ -46,6 +46,7 @@ def main():
             print(f"[skip] {p}: {e}")
 
     print(f"aggregated {len(runs)} runs\n")
+    print("=== " + OUTPUT_DIR + " ===")
 
     order = SCORE_KEYS + ["bonus_points", "deductions", "total"]
     print(f"{'metric':<18}{'mean':>8}{'sd':>8}{'min':>6}{'max':>6}")

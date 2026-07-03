@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 18,
+    "self_projects": 20,
+    "production": 17,
+    "technical_skills": 8
+  },
+  "bonus_points": 3,
+  "deductions": 0,
+  "key_strengths": [
+    "Genuine open source contributions: 3 merged PRs to taskwarrior-tui (24-contributor project), including a new config option and bug fixes to rendering",
+    "Built keyval, a Go-based in-memory key-value store with a custom TCP wire protocol, showing systems-level programming ability beyond typical CRUD apps",
+    "Real production experience at Meridian Software: owned a CSV export endpoint used org-wide and improved background job queue reliability",
+    "Solid backend/systems skill set spanning Python, Go, SQL, and Linux/Docker tooling",
+    "Both self-projects have public GitHub repos with visible traction (40 and 12 stars respectively)"
+  ],
+  "areas_for_improvement": [
+    "Open source contributions, while genuine, are limited in scope (3 small PRs); deeper or more sustained involvement in larger projects would strengthen this further",
+    "Quantify impact more precisely (e.g., the job failure reduction metric is left as a placeholder 'X%') to substantiate production claims",
+    "Projects lack live demos; adding deployed/live examples or more detailed documentation (e.g., README with usage benchmarks) would improve verifiability"
+  ]
+}

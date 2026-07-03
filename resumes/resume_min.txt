@@ -1,0 +1,40 @@
+# Jordan Avery Chen
+backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
+
+## Summary
+Computer science student focused on backend and systems programming, with hands-on
+experience building services in Python and Go.
+
+## Experience
+**Software Engineering Intern** — Meridian Software · May 2025 – Aug 2025
+- Contributed to the internal reporting service used across the organization.
+- Built an endpoint that exports report data to CSV for downstream reporting.
+- Diagnosed and fixed reliability bugs in the background job queue.
+
+## Projects
+**csvkit-lite** — github.com/javchen-dev/csvkit-lite
+A lightweight command-line tool for filtering and transforming CSV files. Written in Python.
+
+**keyval** — github.com/javchen-dev/keyval
+An in-memory key-value store with a TCP interface, focused on simplicity and speed. Written in Go.
+
+## Open source
+Contributed 3 merged pull requests to taskwarrior-tui, an open-source terminal task
+manager with an active contributor base: added a config option and fixed two rendering bugs.
+
+## Skills
+Python, Go, SQL, Git, Docker, Linux
+
+## Education
+BSc Computer Science, State University — expected 2027. GPA 3.4.
+
+<!--
+  === GITHUB DATA ===
+  username: javchen-dev
+  public_repos: 8
+  repos:
+    - csvkit-lite | Python | stars: 40 | forks: 6 | project_type: self_project | contributors: 1
+    - keyval      | Go     | stars: 12 | forks: 2 | project_type: self_project | contributors: 1
+  external_contributions:
+    - taskwarrior-tui | project_type: open_source | contributors: 24 | author_commits: 3
+-->
