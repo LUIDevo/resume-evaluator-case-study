@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 17,
+    "self_projects": 20,
+    "production": 14,
+    "technical_skills": 8
+  },
+  "bonus_points": 4,
+  "deductions": 0,
+  "key_strengths": [
+    "Genuine open source contributions: 3 merged PRs to taskwarrior-tui (a multi-contributor project with 24 contributors), including a new config option and bug fixes",
+    "Systems-level project (keyval): in-memory key-value store with TCP interface in Go, demonstrating backend/networking skills",
+    "csvkit-lite shows practical CLI tool development with meaningful community traction (40 stars, 6 forks)",
+    "Relevant backend internship experience touching reporting services, API endpoints, and job queue debugging",
+    "Solid backend/systems skill set (Python, Go, SQL, Docker, Linux)"
+  ],
+  "areas_for_improvement": [
+    "Open source contributions are limited to a small number of PRs (3) in a single project; broader or more sustained contribution history would strengthen this area",
+    "Both personal projects lack live demos or deployed instances, limiting ease of verification and real-world usage evidence",
+    "Internship experience is brief and scope described is narrow (CSV export, bug fixes); more detail on technical depth or impact would help"
+  ]
+}

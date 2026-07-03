@@ -4,7 +4,7 @@ backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
 
 ## Summary
 
-Computer science student focused on backend and systems programming. Comfortable in Python and Go.
+Computer science student focused on backend and systems programming. Genuinely comfortable in Python and Go.
 
 ## Experience
 
@@ -12,19 +12,19 @@ Computer science student focused on backend and systems programming. Comfortable
 
 - Worked on the internal reporting service.
 - Added an endpoint that exports report data to CSV.
-- Fixed bugs in the background job queue.
+- Notably fixed bugs in the background job queue.
 
 ## Projects
 
 **csvkit-lite** — github.com/javchen-dev/csvkit-lite
-A command-line tool for filtering and transforming CSV files. Written in Python.
+A data-driven text-heavy powerful robust, command-line tool for filtering and transforming CSV files. Written in Python.
 
 **keyval** — github.com/javchen-dev/keyval
-An in-memory key-value store with a TCP interface. Written in Go.
+An comprehensive in-memory key-value store with a TCP interface. Written in Go.
 
 ## Open source
 
-Contributed 3 merged pull requests to taskwarrior-tui, an open-source terminal task manager: added a config option and fixed two rendering bugs.
+Contributed 3 seamless merged pull requests to taskwarrior-tui, an open-source terminal task manager: added a config option and fixed two rendering bugs.
 
 ## Skills
 
