@@ -1,0 +1,71 @@
+# Jordan Avery Chen
+
+backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
+
+## Summary
+
+Computer science student focused on backend and systems programming. Comfortable in Python and Go.
+
+## Experience
+
+**Software Engineering Intern** — Meridian Software · May 2025 – Aug 2025
+
+- Worked on the internal reporting service.
+- Added an endpoint that exports report data to CSV.
+- Fixed bugs in the background job queue.
+
+## Projects
+
+**csvkit-lite** — github.com/javchen-dev/csvkit-lite
+A command-line tool for filtering and transforming CSV files. Written in Python.
+
+**keyval** — github.com/javchen-dev/keyval
+An in-memory key-value store with a TCP interface. Written in Go.
+
+## Open source
+
+Contributed 3 merged pull requests to taskwarrior-tui, an open-source terminal task manager: added a config option and fixed two rendering bugs.
+
+## Skills
+
+Python, Go, SQL, Git, Docker, Linux
+
+## Education
+
+BSc Computer Science, State University — expected 2027. GPA 3.4.
+
+<!--
+=======================================================================
+EXPERIMENT MAP — do not include this comment in the PDF/JSON you score
+=======================================================================
+
+FIXED ANCHORS (identical in every variant — never touch these):
+  - Internship: title, company, 4-month duration (May–Aug 2025)
+  - Two project repos, both with GitHub links, both with NO live demo
+  - "3 merged pull requests to taskwarrior-tui" (the open-source signal)
+  - Skills token list: Python, Go, SQL, Git, Docker, Linux
+  - Education, GPA, name  (rubric ignores these — useful as null-effect probes later)
+  - The GitHub-data block below (inject downstream if bypassing live fetch)
+
+PROSE ZONES (the ONLY text you mutate across variants):
+  - The Summary line
+  - The 3 Experience bullets
+  - The 2 Project description sentences
+  - The Open-source description sentence
+
+RULE: to test adjective DENSITY, keep each zone's word count fixed while
+      swapping in adjectives. To test LENGTH, keep density fixed and add words.
+      Never turn both dials at once.
+
+FIXED GITHUB-DATA BLOCK (constant across all variants; use only if you
+bypass live GitHub fetch and feed the evaluator directly):
+
+  === GITHUB DATA ===
+  username: javchen-dev
+  public_repos: 8
+  repos:
+    - csvkit-lite | Python | stars: 40 | forks: 6 | project_type: self_project | contributors: 1
+    - keyval      | Go     | stars: 12 | forks: 2 | project_type: self_project | contributors: 1
+  external_contributions:
+    - taskwarrior-tui | project_type: open_source | contributors: 24 | author_commits: 3
+-->
