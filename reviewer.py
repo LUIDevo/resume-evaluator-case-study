@@ -20,7 +20,7 @@ for i in range(1, RUNS + 1):
     # Create a message request
     message = client.messages.create(
         model="claude-sonnet-5",  # Chosen model, ideal for efficiency and intelligence
-        max_tokens=2048,
+        max_tokens=4096,
         system=system_prompt,
         messages=[
             {"role": "user", "content": resume}

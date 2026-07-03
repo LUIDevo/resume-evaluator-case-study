@@ -3,7 +3,7 @@ import json
 import os
 import statistics
 
-OUTPUT_DIR = "outputs"
+OUTPUT_DIR = "logs/baseline"
 
 SCORE_KEYS = ["open_source", "self_projects", "production", "technical_skills"]
 

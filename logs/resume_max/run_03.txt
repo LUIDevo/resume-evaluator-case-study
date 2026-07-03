@@ -1,0 +1,22 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 18,
+    "self_projects": 20,
+    "production": 16,
+    "technical_skills": 7
+  },
+  "bonus_points": 3,
+  "deductions": 3,
+  "key_strengths": [
+    "Genuine external open source contributions: 3 merged PRs to taskwarrior-tui (a project with 24 contributors), including a new config feature and two bug fixes",
+    "Two self-built systems-level projects (CSV CLI tool in Python with 40 stars, TCP-based in-memory key-value store in Go with 12 stars) showing real traction and moderate technical complexity beyond basic CRUD",
+    "Relevant backend internship experience touching a production reporting service, including a CSV export endpoint and background job queue fixes",
+    "Reasonable technical breadth across Python, Go, SQL, Docker, and Linux relevant to backend/systems roles"
+  ],
+  "areas_for_improvement": [
+    "Resume language is heavily inflated with buzzwords (e.g., 'blazingly-fast', 'enterprise-grade', 'paradigm shift') without concrete metrics \u2014 quantify impact (e.g., latency improvements, throughput numbers, PR review outcomes) to substantiate claims",
+    "Open source contributions are limited to a single external project; broadening contributions across multiple projects or pursuing structured programs like GSoC would strengthen this area",
+    "Self-projects, while decent, could demonstrate more real-world usage or integration (e.g., adoption by other users, CI/CD, tests) to elevate them beyond solid personal projects"
+  ]
+}

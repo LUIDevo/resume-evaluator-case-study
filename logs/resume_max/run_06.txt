@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 18,
+    "self_projects": 20,
+    "production": 16,
+    "technical_skills": 7
+  },
+  "bonus_points": 3,
+  "deductions": 5,
+  "key_strengths": [
+    "Genuine open source contributions to taskwarrior-tui (external project with 24 contributors), including a merged config feature and two bug fixes",
+    "Two self-projects with active GitHub links and demonstrated community traction (40 and 12 stars respectively)",
+    "Real internship experience at Meridian Software involving a CSV export feature and background job queue debugging",
+    "Reasonable technical breadth across Python, Go, SQL, Docker, and Linux for a student-level candidate",
+    "Projects show above-average complexity (CLI data tool, TCP-based key-value store) rather than simple tutorial-level apps"
+  ],
+  "areas_for_improvement": [
+    "Resume language is heavily inflated with buzzwords (e.g., 'blazingly-fast', 'enterprise-grade', 'paradigm shift') that obscure the actual scope and impact of the work \u2014 more concrete, quantified descriptions would strengthen credibility",
+    "Open source contributions, while genuine, are limited in volume (3 PRs) \u2014 expanding contributions across multiple projects or larger features would significantly boost this area",
+    "Self-projects lack live demos or deployed instances; only source code is available, limiting ability to verify real-world usability"
+  ]
+}

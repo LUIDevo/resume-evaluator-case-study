@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 18,
+    "self_projects": 20,
+    "production": 16,
+    "technical_skills": 7
+  },
+  "bonus_points": 5,
+  "deductions": 3,
+  "key_strengths": [
+    "Genuine external open source contributions: 3 merged PRs (a config feature and two bug fixes) to taskwarrior-tui, a project with 24 contributors",
+    "keyval (Go) demonstrates systems-level thinking with a custom TCP interface for an in-memory key-value store, beyond typical tutorial projects",
+    "csvkit-lite has attracted real community traction (40 stars, 6 forks), indicating some practical utility",
+    "Production internship experience at Meridian Software involving a reporting service, CSV export endpoint, and background job queue fixes",
+    "Reasonable technical breadth across Python, Go, SQL, Docker, and Linux relevant to backend/systems roles"
+  ],
+  "areas_for_improvement": [
+    "Resume language is heavily inflated with buzzwords (e.g., 'paradigm shift', 'best-in-class', 'uncompromising'), which reduces clarity and credibility \u2014 more concrete metrics and specifics would strengthen claims",
+    "Open source involvement is limited to a single project with only 3 PRs; broadening contributions across more projects would demonstrate deeper community engagement",
+    "Projects lack live demos or deployed instances; only GitHub source links are provided, making real-world usage harder to verify"
+  ]
+}
