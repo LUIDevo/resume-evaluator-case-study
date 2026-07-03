@@ -1,23 +1,22 @@
 {
   "candidate_name": "Jordan Avery Chen",
   "scores": {
-    "open_source": 15,
-    "self_projects": 20,
-    "production": 15,
+    "open_source": 18,
+    "self_projects": 16,
+    "production": 16,
     "technical_skills": 7
   },
-  "bonus_points": 3,
-  "deductions": 0,
+  "bonus_points": 5,
+  "deductions": 2,
   "key_strengths": [
-    "Genuine open source contributions: 3 merged PRs to taskwarrior-tui (an external project with 24 contributors), including a new config option and bug fixes",
-    "Systems-level project (keyval): an in-memory key-value store with a custom TCP interface, demonstrating backend/networking skills",
-    "csvkit-lite has real community traction (40 stars, 6 forks), showing practical utility beyond a tutorial exercise",
-    "Relevant backend/systems technical stack: Python, Go, SQL, Docker, Linux",
-    "Production experience at a software engineering internship involving real backend service work (reporting service, CSV export endpoint, job queue bug fixes)"
+    "Genuine open source contribution: 3 merged PRs (including a new config feature and bug fixes) to taskwarrior-tui, an established project with 24 contributors \u2014 not just personal repos",
+    "Real internship experience at Meridian Software involving a production reporting service, CSV export endpoint, and background job queue fixes",
+    "Built two functioning systems-level projects (CLI CSV tool in Python, TCP-based key-value store in Go) with public repos and community traction (40 and 12 stars)",
+    "Reasonable technical breadth across Python, Go, SQL, Docker, and Linux relevant to backend/systems roles"
   ],
   "areas_for_improvement": [
-    "Open source contributions, while genuine, are limited in scope (3 small PRs) \u2014 expanding involvement in external projects would strengthen this area",
-    "Internship experience is brief (3 months) and scope is somewhat limited to smaller feature additions and bug fixes rather than larger ownership",
-    "Could benefit from documenting projects more thoroughly (e.g., READMEs, live demos) and pursuing formal open source programs like GSoC or Outreachy"
+    "Only one internship on record \u2014 needs more production experience or increased scope/ownership to strengthen the production track record",
+    "Self-projects, while functional, are single-contributor efforts (per GitHub data) and would benefit from broader community adoption, tests, or documentation demonstrating production-readiness",
+    "Resume language is heavily embellished with buzzwords ('paradigm shift', 'best-in-class', 'battle-tested') without concrete metrics (e.g., latency improvements, throughput numbers) to substantiate claims of impact"
   ]
 }

@@ -2,39 +2,34 @@
   "candidate_name": "Jordan Avery Chen",
   "scores": {
     "open_source": {
-      "score": 17,
-      "evidence": "Contributed 3 merged pull requests to taskwarrior-tui, a genuine multi-contributor open-source project (24 contributors per GitHub data), including a new config option and two rendering bug fixes. This is authentic contribution to another project rather than personal repos, though the volume (3 small PRs) is modest."
+      "score": 18,
+      "evidence": "GitHub data confirms 3 merged pull requests to taskwarrior-tui, a legitimate community open-source project with 24 contributors (author_commits: 3). Contributions include a config option feature and two bug fixes. This is genuine external contribution to another project, not a personal repo, but the total volume (3 small PRs) is modest."
     },
     "self_projects": {
-      "score": 20,
-      "evidence": "csvkit-lite (40 stars, 6 forks) is a functional CLI tool for CSV filtering/transformation, and keyval is an in-memory key-value store with a custom TCP interface, showing systems-level thinking beyond basic CRUD apps. Both projects have active GitHub links and show reasonable complexity, though they are still single-contributor personal projects rather than large-scale systems."
+      "score": 18,
+      "evidence": "Two projects with active GitHub links: csvkit-lite (Python CLI CSV tool, 40 stars/6 forks) and keyval (Go in-memory KV store with TCP interface, 12 stars/2 forks). Both are self_project type (single contributor) per GitHub data, so not open source, but show moderate systems/backend complexity beyond basic CRUD, and have some community traction via stars/forks."
     },
     "production": {
-      "score": 13,
-      "evidence": "Software Engineering Internship at Meridian Software (May-Aug 2025) involved backend work on an internal reporting service, including building a CSV export endpoint and fixing bugs in a background job queue. This is real production/internship experience, though scope and duration are limited (single summer internship, junior-level tasks)."
+      "score": 14,
+      "evidence": "Software Engineering Intern at Meridian Software (May-Aug 2025) working on an internal reporting service, building a CSV export endpoint, and fixing background job queue defects. This is real internship/production experience, though the description is heavily laden with vague, buzzword-driven language ('spearheaded', 'paradigm shift') without concrete metrics (e.g., throughput numbers, latency improvements, users impacted)."
     },
     "technical_skills": {
       "score": 7,
-      "evidence": "Demonstrates solid backend/systems skill set: Python, Go, SQL, Git, Docker, Linux. Practical use of Go for a networked TCP service and Python for CLI tooling shows applied technical breadth appropriate for a student-level candidate."
+      "evidence": "Demonstrates a solid backend/systems skill set: Python, Go, SQL, Git, Docker, and Linux. Skills are corroborated by project work (Go TCP server, Python CLI tool) and internship experience."
     }
   },
   "bonus_points": {
-    "points": 5,
-    "evidence": "Bonus awarded for verified merged contributions to a real open-source project (taskwarrior-tui) with meaningful community validation (24 contributors), demonstrating initiative beyond coursework."
+    "points": 3,
+    "evidence": "Small bonus for verified merged contributions to a genuine external open-source project (taskwarrior-tui) with community-scale contributor base (24 contributors)."
   },
   "deductions": {
-    "points": 0,
-    "evidence": "No deductions applied; projects include working GitHub links and open source activity is substantive rather than superficial (e.g., not just Hacktoberfest participation)."
+    "points": 5,
+    "evidence": "Resume summary and experience/project descriptions are saturated with generic superlatives and buzzwords ('blazingly-fast', 'best-in-class', 'paradigm shift', 'genuinely passionate') without concrete, quantifiable metrics (e.g., no specific performance numbers, request volumes, or measurable business impact), which reduces credibility and verifiability of claimed impact."
   },
   "key_strengths": [
-    "Genuine open-source contributions (3 merged PRs) to a real multi-contributor project, taskwarrior-tui",
-    "Systems-oriented self projects (TCP key-value store, CLI CSV tool) showing applied backend/Go skills",
-    "Relevant backend internship experience touching real production code (reporting service, job queue)",
+    "Verified merged contributions to an external open-source project (taskwarrior-tui) with real community involvement",
+    "Backend/systems projects (CSV CLI tool, Go TCP key-value store) with active GitHub links and some community traction (stars/forks)",
+    "Relevant internship experience in backend systems work (CSV export endpoint, job queue debugging)",
     "Solid technical skill set spanning Python, Go, SQL, Docker, and Linux"
   ],
-  "areas_for_improvement": [
-    "Expand open-source involvement with more substantial or higher-impact contributions beyond a few small PRs",
-    "Increase production experience scope/duration to include more complex, larger-scale systems work",
-    "Add live demos or more detailed documentation to personal projects to enhance transparency and impact"
-  ]
-}
+  "areas_

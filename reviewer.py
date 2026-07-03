@@ -11,7 +11,7 @@ OUTPUT_DIR = "outputs"
 with open("resume_sys_prompt.txt", "r") as file:
     system_prompt=file.read()
 
-with open("./resumes/baseline_resume.txt", "r") as file:
+with open("./resumes/resume_max.txt", "r") as file:
     resume=file.read()
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)

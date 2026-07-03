@@ -1,41 +1,19 @@
 {
   "candidate_name": "Jordan Avery Chen",
   "scores": {
-    "open_source": {
-      "score": 18,
-      "evidence": "Made 3 merged pull requests to taskwarrior-tui, a genuine open-source terminal task manager with 24 contributors (external_contributions data confirms project_type: open_source). Contributions included adding a config option and fixing two rendering bugs - this is authentic community contribution to another project, not just personal repos. Scale is modest (3 commits) but verifiable and meaningful."
-    },
-    "self_projects": {
-      "score": 20,
-      "evidence": "Two projects with GitHub links: csvkit-lite (CLI CSV filtering/transform tool, 40 stars/6 forks showing community traction) and keyval (in-memory key-value store with TCP interface in Go, demonstrating systems/networking programming ability beyond basic CRUD). Both are self_project type per GitHub data (single contributor) but show real technical depth - keyval in particular involves concurrency and network protocol design, well above tutorial-level complexity. No live demos, but both are backend/CLI tools where this is standard practice."
-    },
-    "production": {
-      "score": 14,
-      "evidence": "Software Engineering Internship at Meridian Software (May-Aug 2025) working on an internal reporting service - added a CSV export endpoint and fixed bugs in a background job queue. This is genuine production experience with real backend responsibilities, though scope is limited to a single short internship with fairly foundational tasks."
-    },
-    "technical_skills": {
-      "score": 8,
-      "evidence": "Demonstrates a solid backend/systems skill set: Python, Go, SQL, Git, Docker, Linux. Skills are corroborated by project work (Go-based TCP server, Python CLI tooling) and internship experience, showing practical application rather than just listed skills."
-    }
+    "open_source": 17,
+    "self_projects": 20,
+    "production": 15,
+    "technical_skills": 7
   },
-  "bonus_points": {
-    "points": 4,
-    "evidence": "csvkit-lite has attracted 40 stars and 6 forks on GitHub, indicating some external validation and usage of the tool by the community."
-  },
-  "deductions": {
-    "points": 0,
-    "evidence": "No significant deductions - projects have active GitHub links, open source contribution is genuine (not just Hacktoberfest), and experience is authentic."
-  },
+  "bonus_points": 3,
+  "deductions": 5,
   "key_strengths": [
-    "Genuine open-source contribution with merged PRs to a real community project (taskwarrior-tui)",
-    "Systems programming depth demonstrated via keyval (Go-based TCP key-value store)",
-    "Practical backend internship experience at Meridian Software",
-    "Well-rounded backend/systems technical stack (Python, Go, SQL, Docker, Linux)",
-    "Project with real community traction (40 GitHub stars on csvkit-lite)"
+    "Genuine external open source contribution: 3 merged PRs (a feature and two bug fixes) to taskwarrior-tui, a real community project with 24 contributors",
+    "Two backend/systems-relevant projects (a CSV CLI tool and a Go-based TCP key-value store) with active GitHub links and measurable community traction (40 and 12 stars)",
+    "Relevant technical stack for backend/systems roles: Python, Go, SQL, Docker, Linux",
+    "Real internship experience touching a production reporting service, including a shipped endpoint and job-queue bug fixes"
   ],
   "areas_for_improvement": [
-    "Expand scope and volume of open-source contributions beyond a single project and 3 commits",
-    "Add live demos or deployed instances for projects to improve accessibility and demonstration of production readiness",
-    "Seek additional or longer production experience to build a stronger track record of real-world impact"
-  ]
-}
+    "Resume text is heavily embellished with vague superlatives ('battle-tested', 'paradigm shift', 'best-in-class'), which obscures the actual scope and impact of the work and reduces credibility",
+    "

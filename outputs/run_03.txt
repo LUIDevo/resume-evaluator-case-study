@@ -1,23 +1,14 @@
 {
   "candidate_name": "Jordan Avery Chen",
   "scores": {
-    "open_source": 18,
-    "self_projects": 22,
-    "production": 14,
-    "technical_skills": 8
-  },
-  "bonus_points": 3,
-  "deductions": 0,
-  "key_strengths": [
-    "Genuine open source contributions: 3 merged PRs to taskwarrior-tui (a project with 24 contributors), including a new config option and rendering bug fixes",
-    "Two well-scoped systems/backend projects (CSV CLI tool and in-memory KV store with TCP interface) both hosted on GitHub with community traction (40 and 12 stars respectively)",
-    "Relevant backend internship experience touching real production code (reporting service, CSV export endpoint, job queue bug fixes)",
-    "Solid backend/systems technical skill set: Python, Go, SQL, Docker, Linux",
-    "Projects demonstrate real systems programming complexity (networking, CLI tooling) rather than tutorial-level CRUD apps"
-  ],
-  "areas_for_improvement": [
-    "Open source contributions are limited in scope (3 small PRs); expanding involvement with larger/more frequent contributions would strengthen this area",
-    "Internship experience is brief (single summer) and scope of ownership (endpoint + bug fixes) is relatively modest; more substantial production impact would help",
-    "Personal projects, while solid, could be extended with tests, documentation, or benchmarks to demonstrate production-readiness and deeper impact"
-  ]
-}
+    "open_source": {
+      "score": 18,
+      "evidence": "GitHub data confirms 3 merged pull requests to taskwarrior-tui, a genuine external open-source project with 24 contributors (not a personal repo) — added a config option and fixed two rendering bugs. This is verified, legitimate contribution to another's codebase, though the total volume (3 PRs) is modest."
+    },
+    "self_projects": {
+      "score": 19,
+      "evidence": "Two self-authored projects with GitHub links: csvkit-lite (Python CSV CLI tool, 40 stars, 6 forks) and keyval (Go in-memory key-value store with TCP interface, 12 stars). Neither is a basic tutorial/CRUD app; keyval in particular demonstrates real systems-programming complexity (networking, data structures). Both are single-contributor 'self_project' type per GitHub data, capping their ceiling relative to true collaborative projects, but complexity and star counts indicate genuine engineering effort."
+    },
+    "production": {
+      "score": 16,
+      "evidence": "Software Engineering Internship at Meridian Software involved building a CSV export endpoint for an internal reporting service and fixing performance bugs in a background job queue. Despite heavily inflated language in the resume ('paradigm shift', 'mission-critical'), the underlying work (feature delivery + bug fixes in a production system) represents legitimate real
