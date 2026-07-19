@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 18,
+    "self_projects": 26,
+    "production": 23,
+    "technical_skills": 9
+  },
+  "bonus_points": 5,
+  "deductions": 0,
+  "key_strengths": [
+    "Merged 3 PRs into taskwarrior-tui, a genuine external open source project with 24 contributors (feature addition + bug fixes)",
+    "Strong internship impact with quantified results: cut dashboard load time from 4.1s to 1.3s, fixed a race condition dropping ~2% of jobs, shipped a feature used by ~30 people",
+    "Two complex, well-scoped self-projects (streaming CSV tool handling larger-than-RAM files; Go KV store with TCP protocol, TTL, and sharded locking) both with live GitHub links and real star counts",
+    "Solid systems-level technical skills demonstrated in practice: concurrency, locking, query optimization, and protocol design",
+    "Clear technical communication in project and experience descriptions with specific metrics"
+  ],
+  "areas_for_improvement": [
+    "Open source contribution volume is still limited (3 PRs to one project); expanding to more projects or larger-scale contributions would strengthen this area",
+    "No evidence yet of participation in structured programs like GSoC, Outreachy, or similar",
+    "Could deepen systems projects further (e.g., distributed consensus, replication) to demonstrate greater architectural complexity"
+  ]
+}

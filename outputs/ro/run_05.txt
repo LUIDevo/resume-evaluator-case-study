@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 18,
+    "self_projects": 23,
+    "production": 22,
+    "technical_skills": 9
+  },
+  "bonus_points": 5,
+  "deductions": 0,
+  "key_strengths": [
+    "Strong production experience with quantifiable impact (30 users, 3.15x load time improvement, race condition fix)",
+    "Real open source contributions with 3 merged PRs into a 24-contributor project (taskwarrior-tui), not just personal repos",
+    "Self projects demonstrate genuine systems complexity (streaming CSV processing, sharded locks, TCP protocol, TTL expiry) rather than tutorial-level work",
+    "Solid technical breadth (Python, Go, SQL, Docker, Linux) directly evidenced through project and work implementations",
+    "Both personal projects are publicly available with GitHub links and community traction (stars/forks)"
+  ],
+  "areas_for_improvement": [
+    "Open source contributions are limited to a small number of PRs (3) in a single project; broader or deeper contributions would strengthen this area",
+    "No evidence of participation in structured programs like GSoC, Outreachy, or Season of Docs",
+    "Could expand technical skill set with additional languages/frameworks or cloud infrastructure experience to complement backend/systems focus"
+  ]
+}
