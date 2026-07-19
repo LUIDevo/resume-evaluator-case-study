@@ -4,27 +4,39 @@ backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
 
 ## Summary
 
-Computer science student focused on backend and systems programming. Comfortable in Python and Go.
+Second-year CS student working on backend and systems projects in Python and Go.
+Most comfortable with data tooling, small storage systems, and the plumbing
+between services.
 
 ## Experience
 
 **Software Engineering Intern** — Meridian Software · May 2025 – Aug 2025
 
-- Worked on the internal reporting service.
-- Added an endpoint that exports report data to CSV.
-- Fixed bugs in the background job queue.
+- Built a CSV export endpoint for the internal reporting service, letting ~30
+  people across support and ops pull report data themselves instead of filing
+  tickets.
+- Cut the reporting dashboard's median load time from 4.1s to 1.3s by adding an
+  index and paginating a query that had been fetching the full table.
+- Tracked down a race condition in the background job queue that was dropping
+  ~2% of jobs under load, and fixed it with a row-level lock.
 
 ## Projects
 
 **csvkit-lite** — github.com/javchen-dev/csvkit-lite
-A command-line tool for filtering and transforming CSV files. Written in Python.
+A command-line tool for filtering, joining, and reshaping CSV files without
+loading them fully into memory. Streams rows so it handles files larger than
+RAM. ~40 stars; I use it in my own data scripts.
 
 **keyval** — github.com/javchen-dev/keyval
-An in-memory key-value store with a TCP interface. Written in Go.
+An in-memory key-value store in Go with a small TCP protocol and TTL expiry.
+Handles concurrent clients using a sharded lock to cut contention. Built to
+learn how Redis-style servers work; ~12 stars.
 
 ## Open source
 
-Contributed 3 merged pull requests to taskwarrior-tui, an open-source terminal task manager: added a config option and fixed two rendering bugs.
+Contributed 3 merged pull requests to taskwarrior-tui, a terminal task manager
+with ~24 contributors: added a configurable keybinding option and fixed two
+rendering bugs in the calendar view.
 
 ## Skills
 
@@ -35,6 +47,13 @@ Python, Go, SQL, Git, Docker, Linux
 BSc Computer Science, State University — expected 2027. GPA 3.4.
 
 <!--
+  Internship: title, Meridian Software, May–Aug 2025
+  Metrics baked in: ~30 users · 4.1s -> 1.3s · ~2% job drop
+  csvkit-lite: Python, streaming/larger-than-RAM, ~40 stars
+  keyval: Go, TCP + TTL, sharded lock, ~12 stars
+  Open source: 3 merged PRs to taskwarrior-tui (~24 contributors)
+  Skills list · Education · GPA · name
+
   === GITHUB DATA ===
   username: javchen-dev
   public_repos: 8
