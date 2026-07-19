@@ -12,4 +12,5 @@ r1 - slightly inflated verbage
 r2 - moderately inflated verbage
 r3 - heavy inflated verbage
 r4 - most dense use of adjectives
-ro - what Claude Opus 4.8 believes is the most optimal resume with only structural and wording changes from the baseline
+rm - acts as a mirror of the system prompt, targeting exactly what this specific sys prompt specifies.
+ro - what Claude Opus 4.8 believes is the most optimal resume, targeted at general AI hiring agents with only structural and wording changes from the baseline
