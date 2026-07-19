@@ -7,7 +7,7 @@ client = Anthropic()
 
 RUNS = 10
 OUTPUT_DIR = "outputs"
-INPUT_FILE="r3"
+INPUT_FILE="rm"
 INPUT_RESUME="./resumes/"+INPUT_FILE+".txt"
 
 with open("resume_sys_prompt.txt", "r") as file:

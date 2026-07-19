@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 21,
+    "self_projects": 23,
+    "production": 19,
+    "technical_skills": 9
+  },
+  "bonus_points": 4,
+  "deductions": 0,
+  "key_strengths": [
+    "Genuine open source contributions: three merged PRs (a configurable keybinding feature and two rendering bug fixes) to taskwarrior-tui, an active project with 24 contributors",
+    "Strong internship impact at Meridian Software: shipped a self-serve CSV export tool used by ~30 people, cut dashboard load time from 4.1s to 1.3s, and fixed a subtle race condition dropping ~2% of jobs",
+    "Well-engineered personal projects (csvkit-lite streaming CSV tool with 40 stars, keyval concurrent TCP key-value store in Go with 12 stars) showing real systems understanding beyond tutorial-level work",
+    "Solid technical breadth across Python, Go, SQL, Docker, and Linux, demonstrated through concurrency handling, protocol design, and performance optimization",
+    "All projects are well-documented with active GitHub links, demonstrating transparency and professionalism"
+  ],
+  "areas_for_improvement": [
+    "Open source contributions are limited to a single project (taskwarrior-tui); broadening contributions across multiple projects or larger codebases would strengthen this area",
+    "Only one internship experience listed; additional production or research experience would round out the profile",
+    "Could pursue more advanced systems projects (e.g., distributed systems, larger-scale storage engines) to further showcase depth given clear aptitude in this direction"
+  ]
+}
