@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 24,
+    "self_projects": 22,
+    "production": 21,
+    "technical_skills": 8
+  },
+  "bonus_points": 5,
+  "deductions": 0,
+  "key_strengths": [
+    "Genuine open source contributions: 3 merged PRs to taskwarrior-tui, a well-maintained project with 24 contributors, including a feature addition and bug fixes",
+    "Strong internship impact: built a self-service reporting feature, cut dashboard load time by ~68% via indexing/pagination, and fixed a subtle race condition in production",
+    "Self-projects show real systems depth beyond tutorials \u2014 csvkit-lite streams data to handle files larger than RAM, keyval implements sharded locking and TTL expiry for a Redis-style TCP server",
+    "Both personal projects have public GitHub links with measurable community traction (40 and 12 stars)",
+    "Solid foundational skill set (Python, Go, SQL, Docker, Linux) directly evidenced through project and work implementations"
+  ],
+  "areas_for_improvement": [
+    "Open source contribution volume is still limited (3 PRs) \u2014 deeper/sustained involvement in external projects would strengthen this further",
+    "Could expand technical skill breadth (e.g., testing frameworks, cloud/infra tools, or a second data store) beyond core Python/Go/SQL stack",
+    "No mention of blog posts, technical writing, or documentation contributions, which would help demonstrate communication skills"
+  ]
+}
