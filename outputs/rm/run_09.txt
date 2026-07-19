@@ -1,0 +1,29 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 18,
+    "self_projects": 25,
+    "production": 20,
+    "technical_skills": 8
+  },
+  "bonus_points": {
+    "points": 3,
+    "reason": "Genuine external open source contribution (3 merged PRs) to taskwarrior-tui, a project with 24 contributors, verified via GitHub data showing project_type: open_source."
+  },
+  "deductions": {
+    "points": 0,
+    "reason": "No deductions - both self projects have active GitHub links, demonstrate real complexity (streaming architecture, sharded-lock concurrency), and open source claims are verified by GitHub data rather than being personal-repo-only claims."
+  },
+  "key_strengths": [
+    "Verified open source contributions: 3 merged PRs to taskwarrior-tui (24 contributors), including a configurable keybinding feature and bug fixes",
+    "Production experience with quantifiable real-world impact: reduced dashboard load time from 4.1s to 1.3s, fixed a race condition dropping ~2% of jobs, and built a CSV export tool used by ~30 people",
+    "Strong self-projects demonstrating systems-level problem solving: csvkit-lite (streaming architecture for larger-than-RAM files, 40 stars) and keyval (sharded-lock concurrent KV store with custom TCP protocol, 12 stars)",
+    "Solid technical breadth across Python, Go, SQL, Docker, and Linux, applied concretely across both projects and internship work",
+    "Projects are non-trivial (not simple CRUD apps) and have live GitHub repos with meaningful star counts, adding transparency and verifiability"
+  ],
+  "areas_for_improvement": [
+    "Open source contribution is currently limited to a small number of PRs (3) on one project; broader/sustained contributions across multiple projects would strengthen this area further",
+    "No live demo links or deployed versions of self-projects (only GitHub repos) \u2014 adding a hosted demo or usage documentation could improve professionalism",
+    "As a second-year student, further deepening skills in scalable systems design, testing practices, or contributing to larger-scale distributed systems would round out the technical profile"
+  ]
+}

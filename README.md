@@ -59,6 +59,17 @@ bonus_points          5.70    1.68     2     8
 deductions            0.00    0.00     0     0
 total                81.00    3.35    74    86
 
+metric                mean      sd   min   max
+----------------------------------------------
+open_source          22.60    1.74    20    25
+self_projects        25.10    1.14    23    26
+production           21.00    1.00    19    22
+technical_skills      8.50    0.50     8     9
+bonus_points          5.70    0.90     5     8
+deductions            0.00    0.00     0     0
+total                82.90    3.65    76    89
+
+
 r4
 metric                mean      sd   min   max
 ----------------------------------------------
@@ -69,3 +80,14 @@ technical_skills      8.20    0.40     8     9
 bonus_points          4.80    0.60     4     6
 deductions            0.00    0.00     0     0
 total                76.80    1.83    74    80
+
+rm
+metric                mean      sd   min   max
+----------------------------------------------
+open_source          19.40    1.80    18    24
+self_projects        25.30    0.78    24    26
+production           21.10    0.83    20    22
+technical_skills      8.50    0.50     8     9
+bonus_points          5.00    0.77     3     6
+deductions            0.00    0.00     0     0
+total                79.30    2.41    74    83

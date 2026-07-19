@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Jordan Avery Chen",
+  "scores": {
+    "open_source": 22,
+    "self_projects": 26,
+    "production": 22,
+    "technical_skills": 9
+  },
+  "bonus_points": 6,
+  "deductions": 0,
+  "key_strengths": [
+    "Genuine open source contributions: 3 merged PRs (a new keybinding feature plus two bug fixes) to taskwarrior-tui, an active project with ~24 contributors",
+    "Strong production impact during internship: shipped a self-service CSV export feature, cut dashboard load time from 4.1s to 1.3s via indexing/pagination, and fixed a subtle race condition dropping ~2% of jobs",
+    "Two complex, well-architected personal projects (streaming CSV toolkit with real adoption/40 stars; a concurrent in-memory KV store with sharded locking and TTL) rather than simple tutorial apps",
+    "Solid technical breadth for a second-year student across Python, Go, SQL, Docker, and Linux, demonstrated concretely in both projects and internship work",
+    "Demonstrates systems-level problem solving (race conditions, locking, streaming large files) beyond typical coursework"
+  ],
+  "areas_for_improvement": [
+    "Open source contribution history is still limited to a single project (3 PRs) \u2014 broader engagement across more repositories/projects would strengthen the profile",
+    "Could expand technical skills breadth (e.g., testing frameworks, CI/CD, cloud infra) to complement current backend/systems focus",
+    "Personal projects, while strong, would benefit from more visible documentation (READMEs, usage examples, benchmarks) to increase external adoption and credibility"
+  ]
+}
