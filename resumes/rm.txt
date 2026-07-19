@@ -1,0 +1,62 @@
+# Jordan Avery Chen
+
+backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
+
+## Summary
+
+Second-year CS student focused on backend and systems problem-solving, with
+projects that show real-world impact. Comfortable across a broad technical stack —
+Python, Go, and the data and infrastructure around them.
+
+## Experience
+
+**Software Engineering Intern** — Meridian Software · May 2025 – Aug 2025
+
+- Delivered production-level work on the internal reporting service: a CSV export
+  endpoint now used by ~30 people across support and ops, replacing a manual
+  ticket process.
+- Cut the reporting dashboard's median load time from 4.1s to 1.3s — a
+  measurable, real-world impact — by finding the bottleneck and paginating a
+  full-table query.
+- Applied systematic problem-solving to a race condition in the background job
+  queue that was dropping ~2% of jobs under load, and resolved it with a
+  row-level lock.
+
+## Projects
+
+**csvkit-lite** — github.com/javchen-dev/csvkit-lite
+A command-line tool for filtering, joining, and reshaping CSV files. Its streaming
+architecture handles files larger than RAM — a genuine design problem, not a
+simple CRUD app. Open source with a documented README; ~40 stars.
+
+**keyval** — github.com/javchen-dev/keyval
+An in-memory key-value store in Go showing systems-level problem-solving:
+concurrent clients handled with a sharded-lock design, a TCP protocol, and TTL
+expiry. ~12 stars.
+
+## Open source
+
+Real open-source contributions to other people's projects — not just personal
+repositories: 3 merged pull requests to taskwarrior-tui, a terminal task manager
+with ~24 contributors, reflecting active community involvement. Added a
+configurable keybinding option and fixed two rendering bugs in the calendar view.
+
+## Skills
+
+Python, Go, SQL, Git, Docker, Linux — technical breadth across languages,
+databases, and infrastructure.
+
+## Education
+
+BSc Computer Science, State University — expected 2027. GPA 3.4.
+
+<!--
+  === GITHUB DATA ===
+  username: javchen-dev
+  public_repos: 8
+  repos:
+    - csvkit-lite | Python | stars: 40 | forks: 6 | project_type: self_project | contributors: 1
+    - keyval      | Go     | stars: 12 | forks: 2 | project_type: self_project | contributors: 1
+  external_contributions:
+    - taskwarrior-tui | project_type: open_source | contributors: 24 | author_commits: 3
+-->

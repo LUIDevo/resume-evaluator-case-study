@@ -7,11 +7,13 @@ client = Anthropic()
 
 RUNS = 10
 OUTPUT_DIR = "outputs"
+INPUT_FILE="r0"
+INPUT_RESUME="./resumes/"+INPUT_FILE+".txt"
 
 with open("resume_sys_prompt.txt", "r") as file:
     system_prompt=file.read()
 
-with open("./resumes/resume_persuasive.txt", "r") as file:
+with open(INPUT_RESUME, "r") as file:
     resume=file.read()
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
