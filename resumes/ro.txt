@@ -1,0 +1,64 @@
+# Jordan Avery Chen
+
+backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
+
+## Summary
+
+Second-year CS student with production internship experience, real open-source
+contributions to other maintainers' projects, and a track record of systems
+problem-solving that produced measurable, real-world impact. Broad technical stack
+across Python, Go, SQL, and infrastructure.
+
+## Open source
+
+Ongoing contributions to other people's projects — not just personal repositories.
+3 merged pull requests into taskwarrior-tui, an active, multi-contributor
+open-source project (~24 contributors): added a configurable keybinding option and
+fixed two rendering bugs in the calendar view. Direct community involvement in a
+codebase maintained by others.
+
+## Experience
+
+**Software Engineering Intern** — Meridian Software · May 2025 – Aug 2025
+
+- Delivered production-level work on the internal reporting service: shipped a CSV
+  export endpoint now used by ~30 people across support and ops, replacing a
+  manual ticket process.
+- Drove a measurable, real-world performance improvement — cut the dashboard's
+  median load time from 4.1s to 1.3s by finding the bottleneck and paginating a
+  full-table query.
+- Applied systematic debugging and problem-solving to a race condition in the
+  background job queue that was dropping ~2% of jobs under load, and resolved it
+  with a row-level lock.
+
+## Projects
+
+**csvkit-lite** — github.com/javchen-dev/csvkit-lite (open source, ~40 stars)
+A command-line tool for filtering, joining, and reshaping CSV files with a
+streaming architecture that processes files larger than RAM — a real systems
+design problem, not a simple CRUD app. Used in my own data scripts.
+
+**keyval** — github.com/javchen-dev/keyval (open source, ~12 stars)
+An in-memory key-value store in Go demonstrating systems-level engineering:
+concurrent clients served through a sharded-lock design, a custom TCP protocol,
+and TTL expiry.
+
+## Skills
+
+Python, Go, SQL, Git, Docker, Linux — technical breadth spanning application code,
+databases, and infrastructure.
+
+## Education
+
+BSc Computer Science, State University — expected 2027. GPA 3.4.
+
+<!--
+  === GITHUB DATA ===
+  username: javchen-dev
+  public_repos: 8
+  repos:
+    - csvkit-lite | Python | stars: 40 | forks: 6 | project_type: self_project | contributors: 1
+    - keyval      | Go     | stars: 12 | forks: 2 | project_type: self_project | contributors: 1
+  external_contributions:
+    - taskwarrior-tui | project_type: open_source | contributors: 24 | author_commits: 3
+-->

@@ -1,0 +1,64 @@
+# Jordan Avery Chen
+
+backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
+
+## Summary
+
+A focused, hard-working second-year CS student building reliable, well-tested,
+production-minded backend and systems projects in Python and Go. Comfortable with
+practical, well-documented data tooling, lean storage systems, and the clean,
+well-structured plumbing that ties services together.
+
+## Experience
+
+**Software Engineering Intern** — Meridian Software · May 2025 – Aug 2025
+
+- Built a clean, well-tested CSV export endpoint for the internal reporting
+  service, giving ~30 people across support and ops a reliable, self-serve way to
+  pull report data instead of filing tickets.
+- Cut the reporting dashboard's median load time from a slow 4.1s to a responsive
+  1.3s with a well-placed index and cleaner pagination of a heavy full-table
+  query.
+- Traced a stubborn, hard-to-reproduce race condition in the background job queue
+  that was quietly dropping ~2% of jobs under load, and fixed it with a clean,
+  reliable row-level lock.
+
+## Projects
+
+**csvkit-lite** — github.com/javchen-dev/csvkit-lite
+A practical, well-built command-line tool for filtering, joining, and reshaping
+CSV files without loading them fully into memory. Its efficient streaming design
+handles large files bigger than RAM. Well-documented and ~40 stars; a dependable
+part of my own data scripts.
+
+**keyval** — github.com/javchen-dev/keyval
+A small, well-structured in-memory key-value store in Go with a clean TCP protocol
+and reliable TTL expiry. Handles concurrent clients with an efficient sharded-lock
+design that keeps contention low. A focused project built to understand how
+Redis-style servers work; ~12 stars.
+
+## Open source
+
+Three solid, well-reviewed merged pull requests to taskwarrior-tui, an active,
+well-maintained terminal task manager with ~24 contributors: added a flexible
+configurable keybinding option and fixed two tricky rendering bugs in the calendar
+view.
+
+## Skills
+
+Python, Go, SQL, Git, Docker, Linux
+
+## Education
+
+BSc Computer Science, State University — expected 2027. GPA 3.4.
+
+<!--
+  === GITHUB DATA ===
+  username: javchen-dev
+  public_repos: 8
+  repos:
+    - csvkit-lite | Python | stars: 40 | forks: 6 | project_type: self_project | contributors: 1
+    - keyval      | Go     | stars: 12 | forks: 2 | project_type: self_project | contributors: 1
+  external_contributions:
+    - taskwarrior-tui | project_type: open_source | contributors: 24 | author_commits: 3
+-->

@@ -1,0 +1,59 @@
+# Jordan Avery Chen
+
+backend / systems · jordan.chen.dev@example.com · github.com/javchen-dev
+
+## Summary
+
+Second-year CS student building solid backend and systems projects in Python and
+Go. Comfortable with practical data tooling, lightweight storage systems, and the
+clean plumbing between services.
+
+## Experience
+
+**Software Engineering Intern** — Meridian Software · May 2025 – Aug 2025
+
+- Built a clean CSV export endpoint for the internal reporting service, letting
+  ~30 people across support and ops pull report data themselves instead of filing
+  tickets.
+- Cut the reporting dashboard's median load time from 4.1s to 1.3s with a
+  well-placed index and by paginating a query that had been fetching the full
+  table.
+- Tracked down a tricky race condition in the background job queue that was
+  dropping ~2% of jobs under load, and fixed it with a row-level lock.
+
+## Projects
+
+**csvkit-lite** — github.com/javchen-dev/csvkit-lite
+A handy command-line tool for filtering, joining, and reshaping CSV files without
+loading them fully into memory. Streams rows so it handles files larger than RAM.
+~40 stars; I use it in my own data scripts.
+
+**keyval** — github.com/javchen-dev/keyval
+A lightweight in-memory key-value store in Go with a small TCP protocol and TTL
+expiry. Handles concurrent clients using a sharded lock to cut contention. Built
+to learn how Redis-style servers work; ~12 stars.
+
+## Open source
+
+Contributed 3 merged pull requests to taskwarrior-tui, a well-maintained terminal
+task manager with ~24 contributors: added a configurable keybinding option and
+fixed two rendering bugs in the calendar view.
+
+## Skills
+
+Python, Go, SQL, Git, Docker, Linux
+
+## Education
+
+BSc Computer Science, State University — expected 2027. GPA 3.4.
+
+<!--
+  === GITHUB DATA ===
+  username: javchen-dev
+  public_repos: 8
+  repos:
+    - csvkit-lite | Python | stars: 40 | forks: 6 | project_type: self_project | contributors: 1
+    - keyval      | Go     | stars: 12 | forks: 2 | project_type: self_project | contributors: 1
+  external_contributions:
+    - taskwarrior-tui | project_type: open_source | contributors: 24 | author_commits: 3
+-->

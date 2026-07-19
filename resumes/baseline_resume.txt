@@ -47,13 +47,6 @@ Python, Go, SQL, Git, Docker, Linux
 BSc Computer Science, State University — expected 2027. GPA 3.4.
 
 <!--
-  Internship: title, Meridian Software, May–Aug 2025
-  Metrics baked in: ~30 users · 4.1s -> 1.3s · ~2% job drop
-  csvkit-lite: Python, streaming/larger-than-RAM, ~40 stars
-  keyval: Go, TCP + TTL, sharded lock, ~12 stars
-  Open source: 3 merged PRs to taskwarrior-tui (~24 contributors)
-  Skills list · Education · GPA · name
-
   === GITHUB DATA ===
   username: javchen-dev
   public_repos: 8
