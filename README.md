@@ -14,7 +14,7 @@ r3 - heavy inflated verbage
 r4 - most dense use of adjectives
 rm - acts as a mirror of the system prompt, targeting exactly what this specific sys prompt specifies.
 ro - what Claude Opus 4.8 believes is the most optimal resume, targeted at general AI hiring agents with only structural and wording changes from the baseline
-
+```
 r0 - baseline
 metric                mean      sd   min   max
 ----------------------------------------------
@@ -112,4 +112,5 @@ production           21.70    1.00    19    23
 technical_skills      8.50    0.50     8     9
 bonus_points          5.00    0.63     4     6
 deductions            0.00    0.00     0     0
+```
 total                76.70    2.28    74    81
