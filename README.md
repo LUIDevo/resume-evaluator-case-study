@@ -1,5 +1,3 @@
-readme
-
 The goal of this repo is to see whether you can affect an AI's perception of your resume based on the verbage and structure of each resume.
 
 This repo uses the now open-sourced "HiringAgent", one of the largest AI hiring agents system prompt to evaluate resume's numerically. Each resume is ran 10 times to account for deviation, and each score is collected along with the notes the AI takes.
@@ -112,5 +110,5 @@ production           21.70    1.00    19    23
 technical_skills      8.50    0.50     8     9
 bonus_points          5.00    0.63     4     6
 deductions            0.00    0.00     0     0
-```
 total                76.70    2.28    74    81
+```
