@@ -112,3 +112,4 @@ bonus_points          5.00    0.63     4     6
 deductions            0.00    0.00     0     0
 total                76.70    2.28    74    81
 ```
+From what I could gather, changing the words and adding adjectives doesn't meaningfully change the resume score. My largest results on average upped the score by 5-6 points, while one strong project could net you an extra 20 or 30 points. However, sometimes even the smallest factor can make a big difference. In comparison to the points gained by one big project, 6 points doesn't look like much, but side by side with another candidate, 6 points can make all the difference.
