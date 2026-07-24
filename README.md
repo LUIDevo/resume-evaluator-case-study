@@ -1,4 +1,4 @@
-The goal of this repo is to see whether you can affect an AI's perception of your resume based on the verbage and structure of each resume.
+The goal of this repo is to see whether you can affect an AI's perception of your resume based on the verbage and structure of each resume. You can find the complete writeup here: https://luidevo.github.io/portfolio/posts/talking-past-an-ai-resume-screener.html
 
 This repo uses the now open-sourced "HiringAgent", one of the largest AI hiring agents system prompt to evaluate resume's numerically. Each resume is ran 10 times to account for deviation, and each score is collected along with the notes the AI takes.
 
